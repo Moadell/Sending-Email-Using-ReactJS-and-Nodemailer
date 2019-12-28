@@ -12,12 +12,12 @@ app.post('/api/form',(req, res) => {
     <p>${req.body.message}</p>'
     `
     let transporter = nodemailer.createTransport({
-    host: "smtp.mailgun.org",
+    host: "smtp.googlemail.com",
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-      user: 'postmaster@sandboxdb57d9f76b834aa7b8e500e4ad987a1f.mailgun.org', // generated ethereal user
-      pass: '2942c890644a585f61a52e6ad75a6147-a9919d1f-e703316e' // generated ethereal password
+      user: 'mohamedzoma2008@gmail.com', // generated ethereal user
+      pass: 'C0C0WaWaWa' // generated ethereal password
     }
   })
   let mailOptions = {
