@@ -23,7 +23,7 @@ app.post('/api/form',(req, res) => {
   let mailOptions = {
     from: 'Intern@Intern.com',
     to: req.body.To,
-    replyTo: 'mohamedzoma2008@gmail.com',
+    replyTo: '  ',
     subject: req.body.Subject,
     text: req.body.message,
     html:htmlEmail
