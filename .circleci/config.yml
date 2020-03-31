@@ -11,7 +11,7 @@ jobs:
           steps:
             - run: npm install
             - run: npm install --prefix mail-test1
-            - run: npm npm run start --prefix mail-test1
+            - run: npm run start --prefix mail-test1
 workflows:
     build-and-test:
       jobs:
