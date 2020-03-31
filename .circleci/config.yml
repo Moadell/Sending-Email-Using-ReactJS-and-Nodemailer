@@ -9,8 +9,7 @@ jobs:
       - checkout
       - node/with-cache:
           steps:
-            - run: npm run install_client
-            - run: npm run install_server
+            - run: npm run install_all
             - run: npm test
             - run: npm run server
             - run: npm run client
