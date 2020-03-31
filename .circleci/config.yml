@@ -9,10 +9,8 @@ jobs:
       - checkout
       - node/with-cache:
           steps:
-            - run: npm run install_all
-            - run: npm test
-            - run: npm run server
-            - run: npm run client
+            - run: npm install
+            - run: npm install --prefix mail-test1
 workflows:
     build-and-test:
       jobs:
