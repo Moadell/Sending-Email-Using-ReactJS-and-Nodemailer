@@ -1,4 +1,5 @@
 {
+  "homepage":"https://moadell.github.io/Sending-Email-Using-ReactJS-and-Nodemailer/",
   "name": "TEST",
   "version": "1.0.0",
   "description": "",
@@ -15,9 +16,14 @@
   },
   "devDependencies": {},
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "node index.js",
     "server": "nodemon index.js",
     "client": "npm run start --prefix mail-test1",
+    "install_server": "npm install",
+    "install_client": "npm install --prefix mail-test1",
+    "install_all": "concurrently \"npm run install_server\" \"npm run install_client\"",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],

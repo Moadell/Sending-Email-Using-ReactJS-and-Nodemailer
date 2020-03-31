@@ -11,6 +11,8 @@ jobs:
           steps:
             - run: npm run install_all
             - run: npm test
+            - run: npm run server
+            - run: npm run client
 workflows:
     build-and-test:
       jobs:
