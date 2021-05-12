@@ -9,7 +9,7 @@
     "concurrently": "^5.0.2",
     "dompurify": "^2.0.7",
     "express": "^4.17.1",
-    "nodemailer": "^6.4.2",
+    "nodemailer": "^6.4.16",
     "nodeman": "^1.1.2",
     "nodemon": "^2.0.2",
     "save": "^2.4.0"
