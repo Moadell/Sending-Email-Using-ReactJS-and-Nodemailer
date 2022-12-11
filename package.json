@@ -8,7 +8,7 @@
     "body-parser": "^1.19.0",
     "concurrently": "^5.0.2",
     "dompurify": "^2.0.7",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "nodemailer": "^6.4.2",
     "nodeman": "^1.1.2",
     "nodemon": "^2.0.2",
